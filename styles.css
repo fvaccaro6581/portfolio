@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'CC Ultimatum';
+    src: url("C:/Users/fvacc/Downloads/transfonter-20261112-160201/CCUltimatum-Bold.woff2") format('woff2'),
+        url("C:/Users/fvacc/Downloads/transfonter-20261112-160201/CCUltimatum-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'CC Ultimatum';
+    color: hsl(0, 0%, 100%);
+    text-shadow:
+    3px 3px 3px hsl(0, 97%, 30%),
+    6px 6px 6px hsl(255, 100%, 22%);
+    font-size: 4em;
+    text-align: center;
+    line-break: loose;
+
+  }
+  
+  p {
+    color: rgb(0, 44, 44);
+    padding: 5px;
+    text-align: center;
+  }
+
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    
+  }
+  
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #f1f1f1;
+  border: 1px solid black;
+  }
+  
+  .box2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+  }
+  
