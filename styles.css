@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'CC Ultimatum';
-    src: url("Superman/CCUltimatum-Bold.woff2") format('woff2'),
-        url("Superman/CCUltimatum-Bold.woff") format('woff');
+    src: url("C:/Users/fvacc/Downloads/transfonter-20261112-160201/CCUltimatum-Bold.woff2") format('woff2'),
+        url("C:/Users/fvacc/Downloads/transfonter-20261112-160201/CCUltimatum-Bold.woff") format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -49,4 +49,18 @@ h1 {
     background-color: #f1f1f1;
     border: 1px solid black;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+    gap: 5px;
+  }
   
+  .container div {
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
